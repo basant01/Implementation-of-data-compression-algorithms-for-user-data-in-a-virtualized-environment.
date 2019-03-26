@@ -5,9 +5,11 @@ Data compression using various algorithms on the host OS and getting the compres
 The Compression Algorithms implemented are LZSS ,LZW12 in this project.
 
 lzsse.c - An LZSS compression module
+
 lzssd.c - An LZSS decompression module
 
 LZWe.c - A simple 12 bit LZW compression module
+
 LZWd.c - A simple 12 bit LZW decompression module
  
 Upscript.sh - A shell script file for controlling the state of virtual machine using the VMrun commands .The guest OS is turned on using the VMrun power commands. Generation of workload on host OS and automating it using crontab.The program implementing compression algorithms takes the data as the input.The compression algorithm encodes the data.Starting Ftp local sevrer

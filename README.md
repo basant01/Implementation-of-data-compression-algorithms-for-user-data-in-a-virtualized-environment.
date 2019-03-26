@@ -12,6 +12,6 @@ LZWe.c - A simple 12 bit LZW compression module
 
 LZWd.c - A simple 12 bit LZW decompression module
  
-Upscript.sh - A shell script file for controlling the state of virtual machine using the VMrun commands .The guest OS is turned on using the VMrun power commands. Generation of workload on host OS and automating it using crontab.The program implementing compression algorithms takes the data as the input.The compression algorithm encodes the data.Starting Ftp local sevrer
+Upscript.sh - A shell script file for controlling the state of virtual machine using the VMrun commands .The guest OS is turned on using the VMrun power commands. Generation of workload on host OS and automating it using crontab.The program implementing compression algorithms takes the data as the input.The compression algorithm encodes the data.Starting Ftp local server
 
 Downscript.sh - A shell script file for Generation of workload on guest OS and automating it using crontab. The compressed data is received to the user and various user groups on Guest OS
